@@ -13,13 +13,13 @@ console.log(str);
 
 //============hm_1-2=============
 
-(function rezult() {
+(function result() {
   const total = 10;
   const ordered = 50;
   if (total < ordered) {
-    return "На складе недостаточно твоаров!";
+    console.log("На складе недостаточно твоаров!");
   } else {
-    return "Заказ оформлен, с вами свяжется менеджер";
+    console.log("Заказ оформлен, с вами свяжется менеджер");
   }
 }());
 
