@@ -16,7 +16,7 @@ logItems(['Mango', 'Poly', 'Ajax', 'Lux', 'Jay', 'Kong']);
 
 const calculateEngravingPrice = function (message, pricePerWord) {
   let arrStr = message.split(' ');
-  let result = Number(arrStr.length) * Number(pricePerWord);
+  let result = arrStr.length * pricePerWord;
   console.log(result);
 };
 
