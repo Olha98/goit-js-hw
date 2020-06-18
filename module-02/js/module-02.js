@@ -2,9 +2,9 @@
 
 function logItems(array) {
   let newArr = [];
-  for (let i = 1; i < array.length; i += 1) {
+  for (let i = 0; i < array.length; i += 1) {
     let str = array[i];
-    newArr.push([`${i} - ${str}`]);
+    newArr.push([`${i+1} - ${str}`]);
 
   }
   console.log(newArr);
