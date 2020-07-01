@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+
+#gallery {
+  display: flex;
+  flex-direction: column-reverse;
+  background: radial-gradient(at center, black 2%, darkslategrey);
+  margin: 0;
+}
+
+.item {
+  display: flex;
+  list-style: none;
+  margin: 10px 0;
+}
+
+.item__img {
+  margin: 0 auto;
+  width: 50%;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+  border-radius: 15%;
+}
+
+.item__img:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
