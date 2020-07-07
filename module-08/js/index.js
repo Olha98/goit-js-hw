@@ -79,7 +79,7 @@ function clickKey(e) {
   }
 
 
-  if (e.target === e.currentTarget || e.target === rightButton || e.key === "ArrowLeft") {
+  if (e.target === e.currentTarget || e.target === rightButton || e.key === "ArrowRight") {
     newElementIndex = elemetIndex + 1;
     if (newElementIndex >= galleryItems.length) {
       newElementIndex = 0;
